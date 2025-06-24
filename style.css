@@ -1,0 +1,45 @@
+/* Carousel Images */
+.carousel-item img {
+  width: 5px;
+  object-fit: cover;
+  text-align: center;
+
+}
+
+
+.imageSize {
+
+  width: 80px;
+}
+
+/* Headings */
+h1 {
+  font-family: "Playfair Display", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: normal;
+}
+
+
+
+/* adjust this based on your navbar height */
+#about, #education,#achievement, #contact, #Co-curricular, #Competitive, #robotics, #research{
+  scroll-margin-top: 80px;
+}
+
+.btn-cv {
+    background: linear-gradient(to right, #00c853, #2962ff);
+    color: white;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: rgb(0, 0, 0);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .contact{
+    background-color: rgb(188, 97, 145);
+  }
+
+  

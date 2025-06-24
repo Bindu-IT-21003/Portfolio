@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio-Bindu</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- ======= icon  CDN ======= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ======= Bootstrap CDN ======= -->
+  <!-- ======= Bootstrap Icons CDN (Add this) ======= -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- ======= Google Fonts ======= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+
+  <!-- ======= AOS CSS ======= -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header Start ======= -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom mb-3 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="text-danger fs-1">Nusrat Jahan</span>
+          <span class="text-success fs-1">Bindu</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-3">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#education">Education</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-success" href="#acheivement" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Achievement
+              </a>
+              <ul class="dropdown-menu bg-info " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item  " href="#Co-curricular">Co-curricular Activities</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#Competitive">Competitive Programming</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#robotics">Robotics Achievement</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#research">Research Achievement</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======= Carousel Start ======= -->
+    <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner  img-fluid" style="background-color: pink;">
+        <div class="carousel-item active">
+          <img src="bindu2.jpg" class=" img-thumbnail  d-block w-50 mx-auto rounded-circle" alt="image 1 ">
+          <div class="carousel-caption d-none d-md-block ">
+            <h5>First Picture</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item" style="background-color: pink;">
+          <img src="bindu1.jpg" class="img-thumbnail d-block w-50 mx-auto rounded-circle" alt="image 2">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second Picture</h5>
+
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- ======= Carousel End ======= -->
+
+    <!-- ======= Home Start ======= -->
+
+    <div class="text-center mt-5">
+      <h1 class="text-danger">Welcome to My Portfolio</h1>
+      <h2>Hi, I'm</h2>
+      <h4 class="font-weight-bold"><i> Nusrat Jahan Bindu </i></h4>
+      <h5 class="text-success">This is my personal portfolio website.</h5>
+      <h6 class="text-primary ">Here you can find information about me, my education,my achievements and my contact
+        too</h6>
+
+
+    </div>
+
+
+    <!-- ======= home icons start ======= -->
+
+    <div class="row">
+      <div class="col-12 text-center mt-5">
+        <!-- Large screen: horizontal with space-around, Small screen: vertical stack -->
+        <div class="d-flex mb-5 flex-column flex-lg-row justify-content-lg-evenly align-items-center gap-2">
+
+          <a class="text-success" href="https://www.facebook.com/nusratjahan.bindu.79" target="_blank">
+            <i class="fa-2x bi bi-facebook"></i>
+          </a>
+
+          <a class="text-success"
+            href="https://www.linkedin.com/in/nusrat-jahan-bindu-9869a8341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank">
+            <i class="fa-2x bi bi-linkedin"></i>
+          </a>
+
+          <a class="text-success" href="https://github.com/Bindu-IT-21003" target="_blank">
+            <i class="fa-2x bi bi-github"></i>
+          </a>
+
+          <a class="text-success" href="it21003@mbstu.ac.bd" target="_blank">
+            <i class="fa-2x bi bi-envelope-at-fill"></i>
+          </a>
+
+        </div>
+
+        <div class=" py-5 d-inline  justify-content-center mt-4">
+          <a href="Resume-Bindu.pdf" download class="btn btn-cv rounded-pill mb-5">
+            <i class="bi bi-download me-2"></i> Download CV
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- ======= home icons end ======= -->
+
+    <!-- ======= Home end ======= -->
+
+
+
+  </header>
+  <!-- ======= Header End ======= -->
+
+  <!-- ======= About Section Start ======= -->
+  <section class="about px-3 py-5" style="background-color: darkslategrey;" id="about">
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center bg-info text-dark  py-3" data-aos="zoom-in" data-aos-offset="100">About Me</h1>
+      </div>
+      <hr class="w-25 bg-dark m-auto text-dark">
+    </div>
+
+    <div class="container pt-3">
+      <div class="row align-items-center">
+
+        <!-- Image Section -->
+
+
+        <div class="col-lg-6 col-md-12 col-sm-12 order-1 order-lg-0 px-0  text-center text-lg-start">
+          <img src="bindu3.jpg" alt="image 1" class="img-fluid mt-5 rounded-circle d-inline-block" data-aos="zoom-in"
+            data-aos-offset="100">
+        </div>
+
+
+        <!-- Text / Accordion Section -->
+        <div class="col-lg-6 col-md-12 col-sm-12 order-0 order-lg-1 pt-3">
+          <div class="accordion w-100" id="accordionPanelsStayOpenExample" style="max-width: 900px; margin: auto;">
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  Myself
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong class="text-danger">Hi, My name is Bindu</strong> <br> <br>
+                  <p class="text-success"> And I am a student in the ICT
+                    Department at MBSTU. I have skills in both app
+                    and web development. I am passionate about using my knowledge to create meaningful and impactful
+                    projects.
+                    Along with my development skills, I have also gained valuable knowledge from my B.Sc. Engineering
+                    course,
+                    which I plan to apply in the future to achieve great things. I am committed to continuously learning
+                    and growing,
+                    and I aspire to make a positive contribution through technology by utilizing both my academic
+                    knowledge and
+                    practical skills.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  Skill
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Programming Languages:</strong>
+                  <ul>
+                    <li>C and C++</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS </li>
+                    <li>Java script</li>
+                    <li>Python</li>
+                  </ul>
+
+                  <strong>Tools/Softwares/IDEs used so far:</strong>
+                  <ul class="list-unstyled fs-9">
+                    <li><i class="fas fa-code me-2 text-primary"></i>VS Code</li>
+                    <li><i class="fas fa-cubes me-2 text-success"></i>Codeblocks</li>
+                    <li><i class="fas fa-project-diagram me-2 text-warning"></i>Eclipse</li>
+                    <li><i class="fas fa-calculator me-2 text-danger"></i>MATLAB</li>
+                    <li><i class="fab fa-android me-2 text-success"></i>Android Studio</li>
+                    <li><i class="fas fa-database me-2 text-info"></i>SQL</li>
+                    <li><i class="fas fa-file-word me-2 text-primary"></i>MS Office</li>
+                    <li><i class="fab fa-google me-2 text-danger"></i>Google Sites</li>
+                  </ul>
+                  <strong>Other Skills:</strong>
+
+                  <p>Proficient in Data Structures, Algorithms, Machine Learning ,Assembly Language and Some of Problem
+                    Solving .</p>
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  Hobby
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+
+
+
+                  <div class="accordion" id="accordionHobbies">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingGardening">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseGardening" aria-expanded="true" aria-controls="collapseGardening">
+                          🌿 Gardening & Indoor Plants
+                        </button>
+                      </h2>
+                      <div id="collapseGardening" class="accordion-collapse collapse show"
+                        aria-labelledby="headingGardening" data-bs-parent="#accordionHobbies">
+                        <div class="accordion-body">
+                          Gardening is one of my favorite hobbies. I love spending time with nature and enjoy planting
+                          different kinds of trees and flowers.
+                          Especially, I have a great passion for indoor plants. I find peace and joy in decorating my
+                          home with green plants, and caring for them
+                          has become a delightful part of my daily life.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTraveling">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTraveling" aria-expanded="false" aria-controls="collapseTraveling">
+                          ✈️ Traveling
+                        </button>
+                      </h2>
+                      <div id="collapseTraveling" class="accordion-collapse collapse" aria-labelledby="headingTraveling"
+                        data-bs-parent="#accordionHobbies">
+                        <div class="accordion-body">
+                          I also enjoy traveling very much. Exploring new places, meeting new people, and learning about
+                          different cultures always excite me.
+                          Whether it's a short trip or a long journey, traveling refreshes my mind and gives me new
+                          perspectives on life.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingDrawing">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseDrawing" aria-expanded="false" aria-controls="collapseDrawing">
+                          🎨 Drawing
+                        </button>
+                      </h2>
+                      <div id="collapseDrawing" class="accordion-collapse collapse" aria-labelledby="headingDrawing"
+                        data-bs-parent="#accordionHobbies">
+                        <div class="accordion-body">
+                          Drawing is another hobby that I truly enjoy.
+                          I am not expert in drawing, but I love sketching and creating art in my free time.Especially
+                          when I'm not in a good mood, drawing helps uplift my spirits and makes me feel better.
+
+                          <div class="text-center mt-3 ">
+                            <a href="Drawing.jpg" target="_blank"
+                              class="btn btn-outline-dark rounded-circle bg-info fw-bold">
+                              🖼️ See My Drawing
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= About Section End ======= -->
+
+  <!-- ======= Education Section Start ======= -->
+  <section class="education px-3 py-5" style="background-color: rgb(193, 128, 160);" id="education">
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center bg-info text-dark  py-3" data-aos="zoom-in" data-aos-offset="100">Education</h1>
+      </div>
+      <hr class="w-25 m-auto">
+    </div>
+
+
+
+    <div class="col-lg-6 col-md-12 col-sm-12 mx-auto text-center justify-content-center">
+      <img src="mbstu.png" alt="image 1" class="img-fluid mt-5 rounded-circle " data-aos="zoom-in" data-aos-offset="00">
+    </div>
+
+    <div class="text-center">
+      <h1 class="bg-dark text-center text-light d-inline-block px-4 py-2 mt-5 mx-auto">
+        My Educational Journey
+      </h1>
+    </div>
+
+
+
+
+
+    <div class="row px-5 text-center">
+      <div class="col-sm-6 px-3 pt-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-danger">Bachelor of Science(B.Sc)(Engg.) in ICT</h5>
+            <p class="card-text"><strong class="text-success fs-6"> From:</strong>Department of Information and
+              Communication Technology, Mawlana
+              Bhashani Science and Technology University,Tangail</p>
+            <p class="card-text"><strong class="text-success fs-6"> Session:</strong> 2021-2022</p>
+
+            <strong class="text-success fs-6">CGPA:</strong> 3.89 out of 4.00 (Till 4 semesters ).</p>
+            <a href="2.1.pdf" target="_blank" class="btn btn-primary rounded-pill">One Semester result</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 px-3 pt-5 text-center">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-danger">Higher Secondary School Certificate(HSC), Science Group</h5>
+            <p class="card-text"><strong class="text-success fs-6"> From:</strong>Cantonment Public School and College
+              ,Momenshahi, Mymensingh </p>
+            <p class="card-text"><strong class="text-success fs-6"> Passing Year:</strong> 2020 </p>
+            <p class="card-text"><strong class="text-success fs-6">Group:</strong>Science</p>
+            <p class="card-text"><strong class="text-success fs-6">Result:</strong> 5.00 out of 5.00.</p>
+
+            <a href="HSC.pdf" target="_blank" class="btn btn-primary rounded-pill">Mark Sheet HSC</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 pt-5 col-lg-12 text-center justify-content-lg-center d-flex justify-content-center"
+        style="width: 100%;">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-danger">Secondary School Certificate(SSC),</h5>
+            <p class="card-text"><strong class="text-success fs-6"> From:</strong>J J K M Girls High School and College
+              ,Islampur </p>
+            <p class="card-text"><strong class="text-success fs-6"> Passing Year:</strong> 2018 </p>
+            <p class="card-text"><strong class="text-success fs-6">Group:</strong>Science</p>
+            <p class="card-text"><strong class="text-success fs-6">Result:</strong> 5.00 out of 5.00.</p>
+            <a href="SSC.pdf" target="_blank" class="btn btn-primary rounded-pill">Mark Sheet SSC</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- ======= Education Section End ======= -->
+
+
+
+
+  <!-- ======= Achievement Section Start ======= -->
+
+  <!-- ======= Co-curricular ======= -->
+  </section>
+  <section class="about pt-5" id="Co-curricular">
+
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center text-danger" data-aos="zoom-in" data-aos-offset="100">Co-curricular Activities</h1>
+      </div>
+      <hr class="w-25 m-auto">
+    </div>
+
+    <div class="text-success fs-5 py-4 px-5">
+      <p>
+        From a young age, I actively participated in various games and competitions, which helped me develop teamwork
+        and leadership skills. At university, I have taken part in several co-curricular initiatives. I worked as a
+        volunteer in the on-campus recruitment program, assisting with event planning and coordination. I was also part
+        of the team that created beautiful wall drawings in our department to enhance its environment. Additionally, I
+        served as a volunteer during the EDGE Programming Course event, ensuring its smooth execution. I actively
+        contribute to various departmental programs by helping decorate the venue and assisting with program operations.
+        Recently, I participated in a quiz competition and was awarded the second prize, which added to my list of
+        achievements
+      </p>
+    </div>
+    <div class="text-center">
+      <a href="certificate.jpg" target="_blank" class="btn btn-primary rounded-pill"
+        style="background: linear-gradient(to right, #c800b1, #2962ff);">Quiz Test Certificate</a><br>
+      <a href="Award.jpg" target="_blank" class="btn btn-primary mt-4 rounded-circle"
+        style="background: linear-gradient(to right, #55e7a5, #375dc5);">Award</a>
+    </div>
+  </section>
+
+  <!-- ======= Competitive ======= -->
+
+  <section class="about pt-5" id="Competitive">
+
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center text-warning" data-aos="zoom-in" data-aos-offset="100">Programming & Project</h1>
+      </div>
+      <hr class="w-25 m-auto">
+    </div>
+
+    <div class="text-primary fs-5 py-5 px-5">
+      <p>
+        I am an active learner in the field of competitive programming. Although I have not secured any major titles
+        yet, I frequently participate in online contests on platforms such as Codeforces,UVa. These experiences have
+        strengthened my problem-solving abilities, especially in algorithms and data structures, and have improved my
+        logical thinking and coding speed.
+      </p>
+
+      <h5 class="text-success fw-bold"> Projects</h5>
+      <p>
+        I have worked on several projects, including </p>
+
+      <ul class="list-unstyled text-danger">
+        <li>❖ Calculator – Developed using Java Swing.</li>
+        <li>❖ BMI Calculator – Developed using Android.</li>
+        <li>❖ Tic Tac Toe Game – Developed using C++.</li>
+        <li>❖ Interesting Dice Game – Developed using Kotlin in Android Studio.</li>
+        <li>❖ Smart Blind Stick – Developed using Arduino Uno.</li>
+        <li>❖ Portfolio – Developed using HTML, CSS, and Bootstrap.</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!-- ======= Robotics  ======= -->
+
+
+
+  <section class="about pt-5" id="robotics">
+
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center text-success" data-aos="zoom-in" data-aos-offset="100">Robotics</h1>
+      </div>
+      <hr class="w-25 m-auto">
+    </div>
+
+    <div class="text-info fs-5 p-4">
+
+      <p>I have a strong interest in working with robotics, although I am still at the early stage of learning.
+        Previously, I worked on an IoT-based project where I worked on a project called
+        "Smart_Blind_Stick_Project".Using this project a blind person can be helped by listening sound when there is an
+        object in front of him. This project sparked my curiosity about automation and
+        embedded systems. I am now eager to explore more about robotics and hardware programming through hands-on
+        projects and continuous learning.</p>
+
+    </div>
+    <div class="text-center">
+      <a href="Smart_Blind_Stick_Project_Report.pdf" target="_blank" class="btn btn-primary rounded-pill "
+        style="background: linear-gradient(to right, #91169a, #35a737);">Robotic Project</a><br>
+    </div>
+
+  </section>
+  <!-- ======= Research======= -->
+  <section class="about pt-5" id="research">
+
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center text-danger" data-aos="zoom-in" data-aos-offset="100">Research</h1>
+      </div>
+      <hr class="w-25 m-auto">
+    </div>
+
+    <div class="text-primary fs-5 p-4">
+      <p>
+        I have recently started working on research with full dedication  in the field of Bioinformatics.
+        I am also actively learning about Machine Learning and many other advanced topics.
+        Research truly excites me, and I have a strong passion for exploring new areas and continuously learning new
+        things to support my research journey.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ======= Achievement Section End ======= -->
+
+
+
+  <!-- ======= Contact Section start ======= -->
+
+  <section class="contact px-3 py-5 " id="contact">
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center bg-info text-dark py-3" data-aos="zoom-in" data-aos-offset="100">Contact</h1>
+      </div>
+      <hr class="w-25 m-auto">
+    </div>
+
+    <h2 class="text-center mt-5 mb-5 text-warning">Get in Touch</h2>
+
+    <div class="d-flex justify-content-center my-3">
+      <div class="col-md-12 col-lg-12 p-5 bg-light text-dark text-center"
+        style="border-radius: 25px; background-color: #f2f2f2; width: 400px;">
+
+        <h2 class="text-primary">Email:</h2>
+        <p class="fw-bold text-dark">
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"
+            class="text-dark">it21003@mbstu.ac.bd</a>
+        </p>
+
+        <h2 class="text-primary">Phone (Personal):</h2>
+        <p class="fw-bold text-dark">Provided upon request</p>
+
+        <h2 class="text-primary">Location:</h2>
+        <p class="fw-bold text-dark">Tangail, Dhaka, Bangladesh</p>
+
+        <h2 class="text-primary">LinkedIn:</h2>
+        <p class="fw-bold">
+          <a class="text-dark fw-bold"
+            href="https://www.linkedin.com/in/nusrat-jahan-bindu-9869a8341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank">Nusrat Jahan Bindu</a>
+        </p>
+
+      </div>
+    </div>
+
+    <div>
+      <h2 class="text-center mt-5 mb-5 text-warning">
+        Professional and Social Media Profile:
+      </h2>
+
+    </div>
+
+    <div class="row">
+      <div class="col-12 text-center mt-3">
+        <!-- Large screen: horizontal with space-around, Small screen: vertical stack -->
+        <div class="d-flex mb-5 flex-column flex-lg-row  justify-content-lg-center    align-items-center gap-2">
+
+          <a class="text-dark" href="https://www.facebook.com/nusratjahan.bindu.79" target="_blank">
+            <i class="fa-2x bi bi-facebook"></i>
+          </a>
+
+          <a class="text-dark"
+            href="https://www.linkedin.com/in/nusrat-jahan-bindu-9869a8341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank">
+            <i class="fa-2x bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div>
+      <p class="text-center text-dark fw-bold mt-5">Feel free to reach out to me for any inquiries, collaborations, or
+        just to say hello! I would love to hear from you.</p>
+    </div>
+
+
+
+
+    <div class="my-5"
+      style="width:400px; height: 550px; margin: 100px auto; padding: 20px; border: 1px solid rgb(192, 188, 188); border-radius: 25px; background-color: #f2f2f2; text-align: center;">
+
+      <h1 class="mb-4 text-primary"><b>Send Me a Message</b></h1>
+
+      <form action="Login.php" method="post" style="text-align: left;">
+
+        <label for="name" style="display: block; margin-top: 10px; font-weight: bold;">Your Name</label>
+        <input type="text" name="name" placeholder="Enter your name"
+          style="padding: 12px; width: 100%; font-size: 16px; border-radius: 10px; border: 1px solid #ccc;"
+          required><br>
+
+        <label for="email" style="display: block; margin-top: 15px; font-weight: bold;">Your Email</label>
+        <input type="email" name="email" placeholder="Enter your email"
+          style="padding: 12px; width: 100%; font-size: 16px; border-radius: 10px; border: 1px solid #ccc;"
+          required><br>
+
+        <label for="message" style="display: block; margin-top: 15px; font-weight: bold;">Your Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Hello, I would like to talk about..."
+          style="padding: 12px; width: 100%; font-size: 16px; border-radius: 10px; border: 1px solid #ccc;"></textarea>
+
+        <input type="submit" value="✈️ Send Message"
+          style="background-color: rgb(20, 156, 156); color: white; padding: 12px; width: 100%; font-size: 16px; margin-top: 15px; border-radius: 10px; border: none;">
+      </form>
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="text-center bg-dark text-light py-3">
+      <p class="mb-0">© 2025 Nusrat Jahan Bindu. All rights reserved.</p>
+      <p class="mb-0">Developed by ❤️<a href="https://www.linkedin.com/in/nusrat-jahan-bindu-9869a8341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" class="text-primary fw-bold">Nusrat Jahan Bindu </a></p>
+      <p>Made using 🌺 HTML,CSS & Bootstrap</p>
+    </div>
+  </footer>
+
+
+
+  <!-- ======= Contact Section End ======= -->
+
+
+  <!-- ======= Scripts Start ======= -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+  <!-- ======= Scripts End ======= -->
+
+</body>
+
+</html>
